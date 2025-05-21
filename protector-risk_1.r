@@ -2,8 +2,11 @@ library("readxl")
 library("tidyverse")
 
 ## Load risk assumptions
-BRCA1_Risks <- read_excel('250516-Penetrance_Assumptions.xlsx',1)
-BRCA2_Risks <- read_excel('250516-Penetrance_Assumptions.xlsx',2)
+#BRCA1_Risks <- read_excel('250516-Penetrance_Assumptions.xlsx',1)
+#BRCA2_Risks <- read_excel('250516-Penetrance_Assumptions.xlsx',2)
+BRCA1_Risks <- read_excel('250520-Penetrance_Assumptions.xlsx',1)
+BRCA2_Risks <- read_excel('250520-Penetrance_Assumptions.xlsx',2)
+
 
 ## function to estimated expected risk
 fn.expected<-function(cumh_br1, cumh_br2, startage, endage){

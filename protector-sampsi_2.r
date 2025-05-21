@@ -93,7 +93,7 @@ myscenario<-list(e1=0.029,
                  dropout=0.05,
                  ntot=2533,
                  B=10000,
-                 R=1000)
+                 R=5000)
 
 ## original calc from first draft
 myscen1<-fn.powercalc1(myscenario)

@@ -6,7 +6,7 @@ Code to evaluate sample size requirements for estimands to evaluate clinical eff
 
 The code is written in R in two files:
 
-- **protector-risk_1.r**: summary statistics on expected risk, based on data in 250516-Penetrance_Assumptions.xlsx and 250617-protector-agesum.csv
+- **protector-risk_1.r**: summary statistics on expected risk, based on data in 250520-Penetrance_Assumptions.xlsx and 250617-protector-agesum.csv
 - **protector-sampsi_2.r**: sample size and power estimation. Input files include those output by the first R script.
 
 # License
